@@ -32,7 +32,8 @@ namespace Bingo
                     {                      
                         NumAle[j, i] = random.Next(min, max);
                     }
-                                    }
+                    
+                }
                 min += 15;
                 max += 15;
                 
@@ -54,38 +55,8 @@ namespace Bingo
                 Console.WriteLine(bingo1.ImprimirM());
             }
 
-            /*
-            int F = 0;
-                int C = 0;
-                int[,] MAT = new int[6, 6];
-                Random rnd = new Random();
-                // GENERO LOS NÚMEROS
-                for (F = 1; F <= 5; F++)
-                {
-                    for (C = 1; C <= 5; C++)
-                    {
-                        MAT[F, C] = rnd.Next(0, 99);
-                    }
-                }
-                // SALIDA
-                for (F = 1; F <= 5; F++)
-                {
-                    for (C = 1; C <= 5; C++)
-                    {
-                        // APROVECHAMOS CICLOS Y GENERAMOS POSICIÓN EN PANTALLA
-                        // PARA COLUMNA Y FILA
-                        Console.SetCursorPosition(C * 4, F + 1);
-                        Console.Write(MAT[F, C]);
-                    }
-                    
-              
-                }
-                Console.WriteLine();
-                Console.Write("Pulse una Tecla:");
-                Console.ReadLine();
-            */
-
-
+           
+               
 
         }
     }
